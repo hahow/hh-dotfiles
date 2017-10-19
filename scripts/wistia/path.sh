@@ -1,0 +1,1 @@
+export WISTIA_API_PASSWORD=""

@@ -1,0 +1,26 @@
+{
+	"before-scripts": [
+		"./scripts/nvm/install.sh"
+	],
+	"casks": [
+		"1password",
+		"google-chrome",
+		"google-cloud-sdk",
+		"docker",
+		"dropbox",
+		"invisionsync",
+		"robomongo",
+		"slack",
+		"sourcetree",
+		"visual-studio-code"
+	],
+	"formulas": [
+		"mongodb@2.6",
+		"redis",
+		"watchman",
+		"yarn"
+	],
+	"symlinks": {
+		"bash/.*": "~"
+	}
+}
