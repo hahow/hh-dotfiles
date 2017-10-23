@@ -85,6 +85,7 @@ $ cider restore
 | Docker For Mac | 我們很多環境需要透過 Docker 啟動（例如 MongoDB） | |
 | Dropbox | 同 1Password | |
 | InVision Sync | Desginer 輸出的圖檔都會透過這個軟體同步到本機資料夾 | |
+| Postman | HTTP client | |
 | Robo 3T | MongoDB GUI | |
 | Slack | Hahow 夥伴之間彼此通訊的軟體 | |
 | SourceTree | Git GUI | |
