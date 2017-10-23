@@ -47,7 +47,7 @@ $ sudo python get-pip.py
     <summary>4. Cider</summary>
 
 ```sh
-$ pip install -U cider
+$ sudo pip install -U cider
 ```
 
 </details>
