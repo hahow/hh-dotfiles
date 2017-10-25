@@ -68,18 +68,18 @@ $ cider restore
 
 | Enviornment | Summary | Source |
 | --- | --- | --- |
-| nvm | 我們會常常會在各專案來回切換不同的 Node.js 版本 | `./bootstrap.json` |
+| nvm | 我們會常常會在各專案來回切換不同的 Node.js 版本 | `~/.cider/bootstrap.json` |
 
 | Enviornment Variables | Summary | Source |
 | --- | --- | --- |
-| WISTIA_API_PASSWORD | 存取 Wistia Video API | `./scripts/wistia/path.sh` |
-| VIMEO_ACCESS_TOKEN | 存取 Vimeo Video API | `./scripts/vimeo/path.sh` |
+| WISTIA_API_PASSWORD | 存取 Wistia Video API | `~/.cider/scripts/wistia/path.sh` |
+| VIMEO_ACCESS_TOKEN | 存取 Vimeo Video API | `~/.cider/scripts/vimeo/path.sh` |
 
 > 因為安全性因素，部分 PATH 不會上 GitHub，請找相關人士取得。
 
 | Apps | Summary | Source |
 | --- | --- | --- |
-| 1Password | Hahow 的所有共用密碼都存在這個軟體 | `./bootstrap.json` |
+| 1Password | Hahow 的所有共用密碼都存在這個軟體 | `~/.cider/bootstrap.json` |
 | Google Chrome | 我們很依賴 Chrome extensions | |
 | Google Cloud SDK | Hahow 的雲端服務是使用 Google Cloud Platform | |
 | Docker For Mac | 我們很多環境需要透過 Docker 啟動（例如 MongoDB） | |
@@ -93,12 +93,12 @@ $ cider restore
 
 | Formulas | Summary | Source |
 | --- | --- | --- |
-| MongoDB 2.6 | 只能 2.6！只能 2.6！因為很重要所以講三次 | `./bootstrap.json` |
+| MongoDB 2.6 | 只能 2.6！只能 2.6！因為很重要所以講三次 | `~/.cider/bootstrap.json` |
 | Redis | | |
 | Watchman | 不安裝這個，Jest testing 會跑不動 | |
 | Yarn | npm packages 之間的 dependency 真的是一個坑 | |
 
 | Symlinks | Summary | Source |
 | --- | --- | --- |
-| ~/.bash_profile | 用來跑 .bashrc | `./bootstrap.json` |
+| ~/.bash_profile | 用來跑 .bashrc | `~/.cider/bootstrap.json` |
 | ~/.bashrc | 用來 runtime 載入 PATH | |
