@@ -93,8 +93,6 @@ $ cider restore
 
 | Formulas | Summary | Source |
 | --- | --- | --- |
-| MongoDB 2.6 | 只能 2.6！只能 2.6！因為很重要所以講三次 | `~/.cider/bootstrap.json` |
-| Redis | | |
 | Watchman | 不安裝這個，Jest testing 會跑不動 | |
 | Yarn | npm packages 之間的 dependency 真的是一個坑 | |
 
