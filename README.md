@@ -72,6 +72,7 @@ $ cider restore
 
 | Enviornment Variables | Summary | Source |
 | --- | --- | --- |
+| WISTIA_API_PASSWORD | 存取 Wistia Video API | `~/.cider/scripts/wistia/path.sh` |
 | VIMEO_ACCESS_TOKEN | 存取 Vimeo Video API | `~/.cider/scripts/vimeo/path.sh` |
 
 > 因為安全性因素，部分 PATH 不會上 GitHub，請找相關人士取得。
