@@ -100,3 +100,7 @@ $ cider restore
 | --- | --- | --- |
 | ~/.bash_profile | 用來跑 .bashrc | `~/.cider/bootstrap.json` |
 | ~/.bashrc | 用來 runtime 載入 PATH | |
+
+## References
+
+- [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/)
